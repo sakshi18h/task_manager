@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: 0.3s;
+}
+
+/* DARK THEME */
+.dark {
+  background: linear-gradient(135deg, #0f0f1a, #1a1a2e);
+  color: white;
+}
+
+/* LIGHT THEME */
+.light {
+  background: linear-gradient(135deg, #e0e0ff, #ffffff);
+  color: black;
+}
+
+/* CENTER FORM */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* CARD */
+.card {
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 20px rgba(123, 44, 191, 0.5);
+}
+
+/* INPUT */
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #7b2cbf;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #9d4edd;
+}
+
+/* THEME TOGGLE */
+.toggle-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #7b2cbf;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
